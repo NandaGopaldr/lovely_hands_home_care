@@ -270,15 +270,22 @@ ul { list-style: none; }
 }
 
 .nav-logo {
-  width: 48px;
-  height: 48px;
-  background: var(--gradient-primary);
+  width: 64px;
+  height: 64px;
+  background: #fff;
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  overflow: hidden;
   box-shadow: var(--shadow-md);
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-brand-text h3 {
@@ -1315,14 +1322,21 @@ ul { list-style: none; }
 }
 
 .footer-logo {
-  width: 44px;
-  height: 44px;
-  background: var(--gradient-primary);
+  width: 54px;
+  height: 54px;
+  background: #fff;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  overflow: hidden;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .footer-brand h3 {
