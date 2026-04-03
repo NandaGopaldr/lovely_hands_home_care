@@ -19,4 +19,4 @@ services:
         sync: false
       - key: RECEIVER_EMAIL
         sync: false
-    namespace: lovely-hands-homecare
+
