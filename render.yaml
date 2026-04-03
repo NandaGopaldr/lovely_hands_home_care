@@ -2,7 +2,7 @@ services:
   - type: web
     name: lovely-hands-homecare
     runtime: python
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
 
     envVars:
@@ -19,3 +19,4 @@ services:
         sync: false
       - key: RECEIVER_EMAIL
         sync: false
+
